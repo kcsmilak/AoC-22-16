@@ -1,0 +1,32 @@
+7 1651 {
+'BB': 25, 
+'CC': 6, 
+'DD': 28, 
+'EE': 9, 
+'HH': 13, 
+'JJ': 21, 
+'AA': 30}
+
+
+30 -> AA
+28 -> DD
+25 -> BB
+21 -> JJ
+13 -> HH
+09 -> EE
+06 -> CC
+
+
+#DD @ 2 --> 28
+#BB @ 5 --> 25
+#JJ @ 9 --> 21
+#HH @ 17 -> 13
+#EE @ 21 ->  9
+#CC @ 24 ->  6
+
+Valve DD has flow rate=20; tunnels lead to valves CC, AA, EE
+Valve BB has flow rate=13; tunnels lead to valves CC, AA
+Valve JJ has flow rate=21; tunnel leads to valve II
+Valve HH has flow rate=22; tunnel leads to valve GG
+Valve EE has flow rate=3; tunnels lead to valves FF, DD
+Valve CC has flow rate=2; tunnels lead to valves DD, BB
